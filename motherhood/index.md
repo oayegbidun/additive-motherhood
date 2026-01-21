@@ -1,10 +1,16 @@
 ---
-layout: page
+layout: default
 title: "Segment II: Motherhood (M)"
 ---
 
-## The Maternal Effect Logs
-Welcome to the documentation of the "Inverse Maternal Effect." Below are the entries from my journey:
+# The Maternal Effect Logs
 
-* **[The Between-Nap Series: Building My Website]({{ site.baseurl }}/motherhood/Between-Nap-Series.html)**
-* *(Future posts will go here)*
+**Documenting the evolution of my perspective as a new mom.** This segment explores the beautiful, chaotic reality of balancing professional goals with the "Between-Nap" workflow.
+
+---
+
+### Journal Entries
+* [The Between-Nap Series: Building My Website]({{ site.baseurl }}/motherhood/Between-Nap-Series.html)
+* *(Future entries will be logged here)*
+
+[← Back to Segments]({{ site.baseurl }}/segments.html)
