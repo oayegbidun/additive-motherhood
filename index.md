@@ -31,8 +31,8 @@ Traditional quantitative genetics focuses on how I shape my child. Here, I docum
 
 Motherhood has been the most significant environmental shift of my life, impacting my:
 * **Computational Efficiency:** Learning to code in the small windows of nap time.
-* **Statistical Perspective:** Seeing the beauty in the "noise" of a chaotic schedule.
 * **Adaptive Capacity:** Preparing for new horizons (both personal and professional).
+* **Statistical Perspective:** Seeing the beauty in the noise of a chaotic schedule.
 ---
 
 ## 📂 Repository Highlights
