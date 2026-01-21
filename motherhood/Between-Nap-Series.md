@@ -1,4 +1,11 @@
-![Mother working with baby on back](BNS.jpg)
+---
+layout: post
+title: "The Between-Nap Series: Building My Website"
+date: 2026-01-20
+categories: motherhood
+---
+
+![Mother working with baby on back](../BNS.png)
 Motherhood: The Between-Nap Series
 
 I sat with my computer open, heart thrumming with excitement, fingers hovering over the keys, ready to finally execute this great idea. But the moment the screen glowed to life, my little one saw her cue. I heard the unmistakable thump-thump-thump of little feet heading my way. She walked towards me, eyes wide with mischievous excitement, ready to play with the keyboard.
