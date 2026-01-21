@@ -5,8 +5,10 @@ title: Home
 
 # Additive Motherhood: Nature, Nurture, and Quantitative Genetics
 
-Welcome! I am a **PhD Student in Crop Science [Quantitative Genetics Focus] at Washington State University** and a new mother. 
+Welcome! I am a PhD Student in Crop Science [Quantitative Genetics Focus] at Washington State University and a new mom. 
 This space serves as a professional portfolio for my research and a personal log of my journey through the $F_1$ generation of parenthood.
+
+### [Explore the Three Segments of this Journey]({{ site.baseurl }}/segments)
 
 ## Quantitative Genetics & Research
 My academic focus lies in the statistical modeling of polygenic traits. I am particularly interested in how we partition variance to understand complex traits.
