@@ -5,7 +5,7 @@ date: 2026-01-20
 categories: motherhood
 ---
 
-(../BNS.png)
+<img src="../BNS.png" width="350" style="display: block; margin: 0 auto;" alt="Motherhood and coding">
 
 # The Between-Nap Series: Building My Website
 
