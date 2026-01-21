@@ -20,24 +20,24 @@ My academic focus lies in the statistical modeling of polygenic traits. I am par
 
 > **Mathematical Lens:** I view motherhood through the Breeder's Equation:
 > $$R = h^2 S$$
-> Where my daily "Response" ($R$) is a function of my academic "Heritability" ($h^2$) and the "Selection" ($S$) of the environments I choose to navigate.
+> Where my daily Response ($R$) is a function of my academic Heritability ($h^2$) and the Selection ($S$) of the environments I choose to navigate.
 
 
 
 ## The Maternal Effect
-In genetics, "maternal effects" describe the influence of a mother’s phenotype on her offspring's phenotype. 
+In genetics, maternal effects describe the influence of a mother’s phenotype on her offspring's phenotype. 
 ## The Inverse Maternal Effect
 Traditional quantitative genetics focuses on how I shape my child. Here, I document how my child shapes me—the **Inverse Maternal Effect**. 
 
-Motherhood has been the most significant "environmental shift" of my life, impacting my:
+Motherhood has been the most significant environmental shift of my life, impacting my:
 * **Computational Efficiency:** Learning to code in the small windows of nap time.
 * **Statistical Perspective:** Seeing the beauty in the "noise" of a chaotic schedule.
 * **Adaptive Capacity:** Preparing for new horizons (both personal and professional).
 ---
 
 ## 📂 Repository Highlights
-* **/scripts**: A collection of my genomic analysis pipelines and statistical models.
-* **/observations**: Reflections on the intersection of genetics and daily life.
+* **/genetics**: A collection of my genomic analysis pipelines and statistical models.
+* **/motherhood**: Reflections on the intersection of genetics and daily life.
 * **/projects**: Summaries of my dissertation work and collaborative research.
 
 ---
