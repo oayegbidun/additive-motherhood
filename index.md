@@ -8,8 +8,18 @@ title: Home
 Welcome! I am a PhD Student in Crop Science [Quantitative Genetics Focus] at Washington State University and a new mom. 
 This space serves as a professional portfolio for my research and a personal log of my journey through the $F_1$ generation of parenthood.
 
-### [Explore the Three Segments of this Journey]({{ site.baseurl }}/segments)
+## Recent Explorations
 
+### 🧬 Genetics
+* [Latest Research Insight](./genetics/README.md)
+
+### 🍼 Motherhood
+* [The Magic and The Mess](./motherhood/The-Magic-and-The-Mess.md)
+* [Building My Website](./motherhood/Building-My-Website.md)
+
+### ✈️ Travel
+* [Latest Trip](./travel/README.md)
+  
 ## Quantitative Genetics & Research
 My academic focus lies in the statistical modeling of polygenic traits. I am particularly interested in how we partition variance to understand complex traits.
 
