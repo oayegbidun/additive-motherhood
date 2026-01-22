@@ -1,2 +1,7 @@
-# Segment I: Genetics (VA)
-This directory contains my quantitative genetics portfolio, including scripts for genomic prediction and notes about quantitative genetics.
+# Quantitative Genetics
+
+
+This directory contains my quantitative genetics portfolio, including R scripts, notes and my thoughts about agriculture.
+
+
+#### The science we don't share can't change the world
