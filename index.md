@@ -8,18 +8,42 @@ title: Home
 Welcome! I am a PhD Student in Crop Science [Quantitative Genetics Focus] at Washington State University and a new mom. 
 This space serves as a professional portfolio for my research and a personal log of my journey through the $F_1$ generation of parenthood.
 
-## Recent Explorations
+## Explore the Journey
 
 ### 🧬 Genetics
-* [Latest Research Insight](./genetics/README.md)
+<ul>
+  {% for post in site.static_files %}
+    {% if post.path contains '/genetics/' and post.extname == '.md' %}
+      {% unless post.name == "README.md" %}
+        <li><a href="{{ site.baseurl }}{{ post.path }}">{{ post.name | replace: ".md", "" | replace: "-", " " }}</a></li>
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+</ul>
 
 ### 🍼 Motherhood
-* [The Magic and The Mess](./motherhood/The-Magic-and-The-Mess.md)
-* [Building My Website](./motherhood/Building-My-Website.md)
+<ul>
+  {% for post in site.static_files %}
+    {% if post.path contains '/motherhood/' and post.extname == '.md' %}
+      {% unless post.name == "README.md" %}
+        <li><a href="{{ site.baseurl }}{{ post.path }}">{{ post.name | replace: ".md", "" | replace: "-", " " }}</a></li>
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+</ul>
 
 ### ✈️ Travel
-* [Latest Trip](./travel/README.md)
-  
+<ul>
+  {% for post in site.static_files %}
+    {% if post.path contains '/travel/' and post.extname == '.md' %}
+      {% unless post.name == "README.md" %}
+        <li><a href="{{ site.baseurl }}{{ post.path }}">{{ post.name | replace: ".md", "" | replace: "-", " " }}</a></li>
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+</ul>
+---
+
 ## Quantitative Genetics & Research
 My academic focus lies in the statistical modeling of polygenic traits. I am particularly interested in how we partition variance to understand complex traits.
 
@@ -32,10 +56,9 @@ My academic focus lies in the statistical modeling of polygenic traits. I am par
 > $$R = h^2 S$$
 > Where my daily Response ($R$) is a function of my academic Heritability ($h^2$) and the Selection ($S$) of the environments I choose to navigate.
 
-
-
 ## The Maternal Effect
 In genetics, maternal effects describe the influence of a mother’s phenotype on her offspring's phenotype. 
+
 ## The Inverse Maternal Effect
 Traditional quantitative genetics focuses on how I shape my child. Here, I document how my child shapes me—the **Inverse Maternal Effect**. 
 
@@ -43,14 +66,6 @@ Motherhood has been the most significant environmental shift of my life, impacti
 * **Computational Efficiency:** Learning to code in the small windows of nap time.
 * **Adaptive Capacity:** Preparing for new horizons (both personal and professional).
 * **Statistical Perspective:** Seeing the beauty in the noise of a chaotic schedule.
-
-
----
-
-## 📂 Repository Highlights
-* **/genetics**: A collection of my genomic analysis pipelines and statistical models.
-* **/motherhood**: Reflections on the intersection of genetics and daily life.
-* **/projects**: Summaries of my dissertation work and collaborative research.
 
 ---
 *Follow my updates as I navigate the G × E interactions of a life in transition.*
