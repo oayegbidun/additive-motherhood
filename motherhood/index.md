@@ -10,8 +10,8 @@ title: "Segment II: Motherhood (M)"
 ---
 
 ### Journal Entries
-* [The Between-Nap Series: Building My Website]({{ site.baseurl }}/motherhood/Between-Nap-Series.html)
-* [The Between-Nap Series: The Magic and The Mess]({{ site.baseurl }}/motherhood/The Magic and The Mess.html)
+* [The Between-Nap Series: Building My Website]({{ site.baseurl }}/motherhood/Building-My-Website.html)
+* [The Between-Nap Series: The Magic and The Mess]({{ site.baseurl }}/motherhood/The-Magic-and-The-Mess.html)
 * *(Future entries will be logged here)*
 
 [← Back to Segments]({{ site.baseurl }}/segments.html)
