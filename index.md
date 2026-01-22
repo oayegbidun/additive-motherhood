@@ -10,37 +10,25 @@ This space serves as a professional portfolio for my research and a personal log
 
 ## Explore the Journey
 
-### 🧬 Genetics
-<ul>
-  {% for post in site.static_files %}
-    {% if post.path contains '/genetics/' and post.extname == '.md' %}
-      {% unless post.name == "README.md" %}
-        <li><a href="{{ site.baseurl }}{{ post.path }}">{{ post.name | replace: ".md", "" | replace: "-", " " }}</a></li>
-      {% endunless %}
-    {% endif %}
-  {% endfor %}
+🧬 Genetics
+<ul> {% assign genetics_files = site.pages | where_exp: "p", "p.path contains 'genetics/'" | where_exp: "p", "p.name != 'index.md'" %} {% assign genetics_posts = genetics_files | where_exp: "p", "p.name != 'README.md'" %}
+
+{% if genetics_posts.size > 0 %} {% for p in genetics_posts %} <li><a href="{{ site.baseurl }}/{{ p.path | replace: '.md', '.html' }}">{{ p.name | replace: ".md", "" | replace: "-", " " }}</a></li> {% endfor %} {% else %} {% for p in genetics_files %} <li><a href="{{ site.baseurl }}/{{ p.path | replace: '.md', '.html' }}">Coming Soon (View Overview)</a></li> {% endfor %} {% endif %}
+
 </ul>
 
-### 🍼 Motherhood
-<ul>
-  {% for post in site.static_files %}
-    {% if post.path contains '/motherhood/' and post.extname == '.md' %}
-      {% unless post.name == "README.md" %}
-        <li><a href="{{ site.baseurl }}{{ post.path }}">{{ post.name | replace: ".md", "" | replace: "-", " " }}</a></li>
-      {% endunless %}
-    {% endif %}
-  {% endfor %}
+🍼 Motherhood
+<ul> {% assign motherhood_files = site.pages | where_exp: "p", "p.path contains 'motherhood/'" | where_exp: "p", "p.name != 'index.md'" %} {% assign motherhood_posts = motherhood_files | where_exp: "p", "p.name != 'README.md'" %}
+
+{% if motherhood_posts.size > 0 %} {% for p in motherhood_posts %} <li><a href="{{ site.baseurl }}/{{ p.path | replace: '.md', '.html' }}">{{ p.name | replace: ".md", "" | replace: "-", " " }}</a></li> {% endfor %} {% else %} {% for p in motherhood_files %} <li><a href="{{ site.baseurl }}/{{ p.path | replace: '.md', '.html' }}">Coming Soon (View Overview)</a></li> {% endfor %} {% endif %}
+
 </ul>
 
-### ✈️ Travel
-<ul>
-  {% for post in site.static_files %}
-    {% if post.path contains '/travel/' and post.extname == '.md' %}
-      {% unless post.name == "README.md" %}
-        <li><a href="{{ site.baseurl }}{{ post.path }}">{{ post.name | replace: ".md", "" | replace: "-", " " }}</a></li>
-      {% endunless %}
-    {% endif %}
-  {% endfor %}
+✈️ Travel
+<ul> {% assign travel_files = site.pages | where_exp: "p", "p.path contains 'travel/'" | where_exp: "p", "p.name != 'index.md'" %} {% assign travel_posts = travel_files | where_exp: "p", "p.name != 'README.md'" %}
+
+{% if travel_posts.size > 0 %} {% for p in travel_posts %} <li><a href="{{ site.baseurl }}/{{ p.path | replace: '.md', '.html' }}">{{ p.name | replace: ".md", "" | replace: "-", " " }}</a></li> {% endfor %} {% else %} {% for p in travel_files %} <li><a href="{{ site.baseurl }}/{{ p.path | replace: '.md', '.html' }}">Coming Soon (View Overview)</a></li> {% endfor %} {% endif %}
+
 </ul>
 ---
 
