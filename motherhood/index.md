@@ -14,4 +14,3 @@ title: "Segment II: Motherhood (M)"
 * [The Between-Nap Series: The Magic and The Mess]({{ site.baseurl }}/motherhood/The-Magic-and-The-Mess.html)
 * *(Future entries will be logged here)*
 
-[← Back to Segments]({{ site.baseurl }}/segments.html)
