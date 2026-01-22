@@ -1,3 +1,8 @@
 title: Additive Motherhood
-description: Quantitative Genetics PhD | New Mom | Modeling Life's Variance
+description: Quantitative Genetics | New Mom | Modeling Life's Variance
 theme: jekyll-theme-cayman
+
+header_pages:
+  - genetics/README.md
+  - motherhood/README.md
+  - travel/README.md
