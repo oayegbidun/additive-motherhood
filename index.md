@@ -7,10 +7,10 @@ title: Home
 Welcome! I am a PhD Student in Crop Science at Washington State University and a new mom. This space is a professional portfolio of my research and a personal log of my journey through the $F_1$ generation of parenthood.
 
 🧬 Research Focus: The D-Genome Explorer
-My doctoral research is dedicated to Germplasm Enhancement in bread wheat (_Triticum aestivum_). I explore the allelic diversity of its ancestral relative, _Aegilops tauschii_, to identify novel alleles for:
+* My doctoral research is dedicated to Germplasm Enhancement in bread wheat (_Triticum aestivum_). I explore the allelic diversity of its ancestral relative, _Aegilops tauschii_, to identify novel alleles for:
 
-Agronomic Resilience: Improving yield stability.
-Nutritional Density: Enhancing the micronutrient profile of modern cultivars.
+** Agronomic Resilience: Improving yield stability.
+** Nutritional Density: Enhancing the micronutrient profile of modern cultivars.
 
 By partitioning the genetic variance ($V_G$) contributed by the D-genome progenitor, I work to overcome the evolutionary bottleneck that limits modern wheat's potential.
 
@@ -46,7 +46,7 @@ Genomic Selection: Applying GWAS and selection index theory to predict breeding 
 The Breeder's Equation of Motherhood: 
 $$R = h^2 S$$
 
-My daily Response ($R$) is a function of my academic Heritability ($h^2$) and the Selection ($S$) of the environments I choose to navigate.
+### Response ($R$) is a function of my academic Heritability ($h^2$) and the Selection ($S$) of the environments I choose to navigate.
 ---
 
 *Follow my updates as I navigate the G × E interactions of a life in transition.*
