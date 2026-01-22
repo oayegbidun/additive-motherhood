@@ -14,7 +14,7 @@ My doctoral research is dedicated to Germplasm Enhancement in bread wheat (_Trit
 By partitioning the genetic variance ($V_G$) contributed by the D-genome progenitor, I work to overcome the evolutionary bottleneck that limits modern wheat's potential.
 
 📂 Explore the Journey
-Below is a dynamic list of my latest logs and technical updates:
+#### Below is a dynamic list of my latest logs and technical updates:
 
 🧬 Genetics
 <ul> {% assign genetics_files = site.pages | where_exp: "p", "p.path contains 'genetics/'" | where_exp: "p", "p.name != 'index.md'" %} {% assign genetics_posts = genetics_files | where_exp: "p", "p.name != 'README.md'" %}
